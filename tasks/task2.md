@@ -1,4 +1,4 @@
-# 과제 2 (난이도 중)
+﻿# 과제 2 (난이도 중)
 
 [링크](http://try.github.io/)에 들어가면 GitHub에서 추천하는 양질의 git·GitHub 학습자료를  확인할 수 있습니다. 많은 개발자들과 실험해본 결과 이 중 [Learn Git Branching](https://learngitbranching.js.org/)이 개념 학습과 실무에 큰 도움이 된다는 결론을 내리게 되었습니다.
 
@@ -11,9 +11,9 @@ Learn Git Branching 사이트를 열어 모든 과제를 직접 끝내 봅시다
 
 자신의 username이 적힌 그림 파일이 하단에 보여야 합니다.
 
-![learn-git-branching-level-1](../resources/learn-git-branching-level1.png)
+![learn-git-branching-level-1](../resources/image1.png)
 
-![learn-git-branching-level-2](../resources/learn-git-branching-level2.png)
+![learn-git-branching-level-2](../resources/image2.png)
 
 ## 응원의 말
 
