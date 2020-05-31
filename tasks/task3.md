@@ -1,4 +1,4 @@
-# 과제 3 (난이도 상)
+﻿# 과제 3 (난이도 상)
 
 https://github.com/udacity/asteroids 에 들어가 해당 리포지토리를 로컬 머신에 클론 받고 다음 과제를 수행해주세요.
 
@@ -20,7 +20,15 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 ### 정답
 
-(여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
+버그를 유발한 커밋은 25ede83(a couple missing ends with the ipad version)이다.
+여기서 411번 줄의 this.delayBeforeBullet=10; 이라는 명령이 빠져서 총알이 끊임없이 나오도록 변경되었다.
+현재 game.js파일 423번줄 아래에 다음과 같이 this.delayBeforeBullet=10; 를 추가하면 버그 수정이 가능하다.
+(422) if (KEY_STATUS.space) {
+(423) 	if (this.delayBeforeBullet <= 0) {
+		this.delayBeforeBullet=10;
+        	for (var i = 0; i < this.bullets.length; i++) {
+          	if (!this.bullets[i].visible) {
+            	SFX.laser();
 
 ### 힌트
 
